@@ -1,0 +1,20 @@
+{
+  "name": "itfarm/php-sdk",
+  "description": "中台服务调用php版sdk",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "ItFarm\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.6",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "authors": [
+    {
+      "name": "Zhou Miao",
+      "email": "zhoumiao@corp-ci.com"
+    }
+  ]
+}
